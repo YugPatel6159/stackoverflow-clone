@@ -1,0 +1,105 @@
+{
+  "usersInfo": [
+    {
+      "first_name": "Yug",
+      "last_name": "Patel",
+      "primary_mobile_number": "9510849950",
+      "primary_email": "yugp210702@gmail.com",
+      "username": "yug",
+      "password": "yug@1234",
+      "id": 1
+    },
+    {
+      "first_name": "Yug",
+      "last_name": "Patel",
+      "primary_mobile_number": "9510849950",
+      "primary_email": "yugp210702@gmail.com",
+      "username": "yug11",
+      "password": "yug@1234",
+      "id": 2
+    },
+    {
+      "first_name": "Yug",
+      "last_name": "Patel",
+      "primary_mobile_number": "9510849950",
+      "primary_email": "yugp210702@gmail.com",
+      "username": "yug",
+      "password": "Rutvik*&123",
+      "id": 3
+    }
+  ],
+  "questions": [
+    {
+      "title": "sdfsdf",
+      "description": "hjbnk",
+      "tags": "mhjnkm",
+      "views": 0,
+      "votes": 0,
+      "userId": 1,
+      "answers": [
+        {
+          "userId": 1,
+          "answers": "ioj",
+          "date": "2023-04-12"
+        },
+        {
+          "userId": 1,
+          "answers": "ioj",
+          "date": "2023-04-12"
+        },
+        {
+          "userId": 1,
+          "answers": "qwerqwer",
+          "date": "2023-04-12"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "title": "12345321",
+      "description": "456t7y8u",
+      "tags": "tfyguhjk",
+      "views": 0,
+      "votes": 0,
+      "userId": 1,
+      "answers": [
+        {
+          "userId": 1,
+          "answers": "122eqw",
+          "date": "2023-04-12"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "title": "uhuih",
+      "description": "uihiuhuihuihiuh",
+      "tags": "iuhiuh",
+      "views": 0,
+      "votes": 0,
+      "userId": 1,
+      "answers": [],
+      "id": 3
+    },
+    {
+      "title": "213123",
+      "description": "123123",
+      "tags": "123123",
+      "views": 0,
+      "votes": 0,
+      "userId": 1,
+      "answers": [],
+      "id": 4
+    },
+    {
+      "title": "123",
+      "description": "123123",
+      "tags": "1231123",
+      "views": 0,
+      "votes": 0,
+      "userId": 1,
+      "answers": [],
+      "id": 5
+    }
+  ]
+}

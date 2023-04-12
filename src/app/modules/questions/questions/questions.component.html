@@ -1,0 +1,29 @@
+
+<div class="container">
+    <div class="d-flex">
+        <div class="d-flex" >
+            <div class="mt-5">
+                <h3 >All Questions</h3>
+            </div>
+            <div class="mt-5">
+                <button class="btn btn-primary" style="margin-left: 400px;" (click)="askQues()">Ask Question</button>
+            </div>
+        </div>
+    </div>
+    <div class="row" *ngFor="let question of userQuestions">   
+        <hr>
+        <div class="col d-flex">
+            <div class="col-md-2 d-flex-col">   
+                    <div> {{question.votes}} votes</div>
+                    <div> {{question.answers.length}} answers</div>
+                    <div> {{question.views}} views</div>
+            </div>
+            <div class="col-md-7 d-flex-col">
+                <div><a class="text-decoration-none text-dark" (click)="routeToAnswerPage(question.id)">{{question.title}}</a></div>
+                <div>{{question.description}}</div>
+                <div>{{question.tags}}</div>
+            </div>
+
+        </div>
+    </div>
+</div>
